@@ -1,4 +1,4 @@
-package interfaces;
+package solved.interfaces;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,7 +19,7 @@ public class StudentSort {
         System.out.println("Unsorted names:");
         System.out.println(names);
 
-        // Collections.sort(names);		// Uncomment this to sort!
+        Collections.sort(names);		// Uncomment this to sort!
         System.out.println("\n\nSorted names:");
         System.out.println(names);
     }
