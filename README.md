@@ -1,3 +1,3 @@
 # Java 4: Advanced OOP
 
-http://cs2113f18.github.io/java/4/
+http://gwu-csci2113.github.io/java/4/
