@@ -10,15 +10,14 @@ public class RandReader {
 
 	public static void main(String args[]) {
 		try {
-			BufferedReader in
-				= new BufferedReader(new FileReader("romeo.txt"));
 
+			BufferedReader in = new BufferedReader(new FileReader("romeo.txt"));
+			
 			String line = in.readLine();
-			int i=1;
 
 			while(line != null) {
 				System.out.println(line);
-				line = in.readLine();
+				line = in.readLine();	
 			}
 
 		} catch (FileNotFoundException e) {
